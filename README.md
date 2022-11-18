@@ -101,12 +101,12 @@ Example output:
 ┌─────────┬──────────┬─────────────┐
 │ (index) │ givingTo │ gettingFrom │
 ├─────────┼──────────┼─────────────┤
-│  james  │ 'angie'  │   'carla'   │
+│  james  │ 'angie'  │   'drew'    │
 │  angie  │ 'elise'  │   'james'   │
-│   mum   │  'drew'  │   'drew'    │
-│  carla  │ 'james'  │   'julia'   │
-│  julia  │ 'carla'  │   'elise'   │
-│  drew   │  'mum'   │    'mum'    │
-│  elise  │ 'julia'  │   'angie'   │
+│   mum   │  'drew'  │   'julia'   │
+│  carla  │ 'julia'  │   'elise'   │
+│  julia  │  'mum'   │   'carla'   │
+│  drew   │ 'james'  │    'mum'    │
+│  elise  │ 'carla'  │   'angie'   │
 └─────────┴──────────┴─────────────┘
 ```
