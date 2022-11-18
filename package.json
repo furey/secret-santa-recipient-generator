@@ -1,13 +1,17 @@
 {
   "name": "secret-santa-recipient-generator",
-  "version": "0.0.2",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Secret Santa participant ↔︎ recipient generator.",
   "main": "scripts/generate.js",
   "scripts": {
     "generate": "node ."
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "secret",
+    "santa",
+    "generator"
+  ],
+  "author": "James Furey",
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^16.0.3",
