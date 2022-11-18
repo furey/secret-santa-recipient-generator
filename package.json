@@ -1,0 +1,17 @@
+{
+  "name": "secret-santa-recipient-generator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "fs-extra": "^10.1.0",
+    "lodash": "^4.17.21"
+  }
+}
