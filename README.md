@@ -11,8 +11,8 @@ Secret Santa participant ↔︎ recipient generator.
 ## Quick Start
 
 - [Configure](#environment-variables) `.env` file
-- Ensure [Node](https://nodejs.org/en/download) running:<br>`$ node -v` >= `16.16.*`
-- Ensure [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) running:<br>`$ npm -v` >= `8.14.*`
+- Ensure [Node](https://nodejs.org/en/download) running:<br>`$ node -v` >= `18.12.*`
+- Ensure [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) running:<br>`$ npm -v` >= `9.1.*`
 - Install dependencies:<br>
   `$ npm ci`
 - Run generator:<br>
