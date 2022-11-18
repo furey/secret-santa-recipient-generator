@@ -79,7 +79,7 @@ PARTICIPANTS_PATH=path/to/participants.json
 LOG_LEVEL=debug
 ```
 
-**Note:** `LOG_LEVEL=debug` for verbose console output.
+**Note:** Set `LOG_LEVEL=debug` for verbose console output.
 
 ## Node Scripts
 
