@@ -44,7 +44,9 @@ const getParticipants = () => {
 const prefillGettingFrom = participants => {
   Object.entries(participants).forEach(participantEntry => {
     const [ name, actions ] = participantEntry
-    if (actions.givingTo) participants[actions.givingTo].gettingFrom = name
+    if (!actions.givingTo) return
+    if (!participants[actions.givingTo]) throw new Error (`Participant [${[actions.givingTo]}] does not exist.`)
+    participants[actions.givingTo].gettingFrom = name
   })
 }
 
