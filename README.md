@@ -2,6 +2,8 @@
 
 Secret Santa participant ↔︎ recipient generator.
 
+![](./readme/output.png)
+
 ## Contents
 
 - [Quick Start](#quick-start)
